@@ -26,12 +26,10 @@ dependencies {
 	testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
 	testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
 	testRuntimeOnly("org.junit.jupiter:junit-jupiter-params:${junitVersion}")
-}
 
-javafx {
-	sdk = '/Users/riedhammerko/Library/Java/JavaVirtualMachines/javafx-sdk-17'
-	version = 17
-	modules = [ 'javafx.controls', 'javafx.fxml' ]
+
+
+
 }
 
 test {
@@ -40,3 +38,12 @@ test {
 		events "passed", "skipped", "failed"
 	}
 }
+
+javafx {
+	sdk = "C:\\Program Files\\Java\\javafx-sdk-16"
+	version = "16"
+	modules = [ 'javafx.controls', 'javafx.fxml' ]
+}
+
+
+
